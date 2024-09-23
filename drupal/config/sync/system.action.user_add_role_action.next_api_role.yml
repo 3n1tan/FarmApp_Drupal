@@ -1,0 +1,14 @@
+uuid: 746744f2-cdf6-45e2-8511-4d5a8958f2e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.next_api_role
+  module:
+    - user
+id: user_add_role_action.next_api_role
+label: 'Add the API Previewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: next_api_role

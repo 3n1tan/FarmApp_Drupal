@@ -1,0 +1,57 @@
+label: Media
+display:
+  default:
+    display_title: Förvald
+    display_options:
+      title: Media
+      fields:
+        thumbnail__target_id:
+          separator: ', '
+        name:
+          separator: ', '
+        bundle:
+          label: Typ
+          separator: ', '
+        uid:
+          separator: ', '
+        status:
+          label: Status
+          settings:
+            format_custom_false: 'Ej publicerad'
+            format_custom_true: Publicerad
+          separator: ', '
+        changed:
+          separator: ', '
+        operations:
+          label: Funktioner
+      pager:
+        options:
+          tags:
+            next: 'Nästa ›'
+            previous: '‹ Föregående'
+          expose:
+            items_per_page_label: 'Inlägg per sida'
+            items_per_page_options_all_label: '- Alla -'
+            offset_label: Kompensera
+      exposed_form:
+        options:
+          reset_button_label: Återställ
+          exposed_sorts_label: 'Sortera efter'
+          sort_asc_label: Stigande
+          sort_desc_label: Fallande
+      filters:
+        bundle:
+          expose:
+            label: Typ
+        status:
+          group_info:
+            group_items:
+              1:
+                title: Publicerad
+              2:
+                title: 'Ej publicerad'
+  media_page_list:
+    display_title: Media
+    display_options:
+      menu:
+        title: Media

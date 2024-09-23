@@ -1,0 +1,24 @@
+uuid: 579e7fc6-abfb-4fe3-8aad-eb77a2339f5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_text
+    - field.storage.block_content.field_text
+    - filter.format.restricted_html
+  module:
+    - text
+id: block_content.media_text.field_text
+field_name: field_text
+entity_type: block_content
+bundle: media_text
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - restricted_html
+field_type: text_long

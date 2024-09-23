@@ -1,0 +1,17 @@
+uuid: 7cd6ab69-231e-4864-81f0-0e87f7eddacb
+langcode: en
+status: true
+dependencies: {  }
+name: media_text_items
+label: 'Media & text items'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: '+ Add Media & text items'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets: {  }

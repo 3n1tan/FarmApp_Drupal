@@ -1,0 +1,52 @@
+label: Filer
+display:
+  default:
+    display_title: Förvald
+    display_options:
+      title: Filer
+      fields:
+        filename:
+          label: Namn
+          separator: ', '
+        status:
+          label: Status
+      pager:
+        options:
+          tags:
+            next: 'Nästa ›'
+            previous: '‹ Föregående'
+          expose:
+            items_per_page_label: 'Inlägg per sida'
+            items_per_page_options_all_label: '- Alla -'
+            offset_label: Kompensera
+      exposed_form:
+        options:
+          reset_button_label: Återställ
+          exposed_sorts_label: 'Sortera efter'
+          sort_asc_label: Stigande
+          sort_desc_label: Fallande
+      filters:
+        filename:
+          expose:
+            label: Filnamn
+        status:
+          expose:
+            label: Status
+  page_1:
+    display_options:
+      menu:
+        title: Filer
+  page_2:
+    display_options:
+      fields:
+        type:
+          label: Objektstyp
+      pager:
+        options:
+          tags:
+            next: 'Nästa ›'
+            previous: '‹ Föregående'
+          expose:
+            items_per_page_label: 'Inlägg per sida'
+            items_per_page_options_all_label: '- Alla -'
+            offset_label: Kompensera

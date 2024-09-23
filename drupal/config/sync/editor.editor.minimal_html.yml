@@ -1,0 +1,32 @@
+uuid: 170d1e29-7f63-4b78-8bdf-1e1f62b1d044
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.minimal_html
+  module:
+    - ckeditor5
+format: minimal_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - bold
+      - italic
+      - subscript
+      - superscript
+      - '|'
+      - '-'
+      - style
+      - sourceEditing
+  plugins:
+    ckeditor5_sourceEditing:
+      allowed_tags:
+        - '<span>'
+    ckeditor5_style:
+      styles:
+        -
+          label: 'No wrapping'
+          element: '<span class="nowrap">'
+image_upload:
+  status: false

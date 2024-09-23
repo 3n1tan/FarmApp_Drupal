@@ -1,0 +1,29 @@
+uuid: 06b98b9c-0fe9-4aa4-841a-df8dcc6ed60b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Minimal HTML'
+format: minimal_html
+weight: 0
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<br> <p> <span class="nowrap"> <strong> <em> <sub> <sup>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }

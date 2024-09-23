@@ -1,0 +1,23 @@
+uuid: e98c73c5-00af-478e-8b36-1a489bdfaefc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_theme
+    - paragraphs.paragraphs_type.media_text_group
+  module:
+    - options
+id: paragraph.media_text_group.field_background_theme
+field_name: field_background_theme
+entity_type: paragraph
+bundle: media_text_group
+label: 'Background theme'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: background-white
+default_value_callback: ''
+settings: {  }
+field_type: list_string

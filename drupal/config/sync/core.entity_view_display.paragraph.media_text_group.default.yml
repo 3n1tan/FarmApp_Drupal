@@ -1,0 +1,50 @@
+uuid: 94fa3265-cd61-471f-a8ea-8b96004faca8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.media_text_group.field_background_theme
+    - field.field.paragraph.media_text_group.field_blocks
+    - field.field.paragraph.media_text_group.field_introduction_paragraph
+    - field.field.paragraph.media_text_group.field_media_text_image_position
+    - paragraphs.paragraphs_type.media_text_group
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.media_text_group.default
+targetEntityType: paragraph
+bundle: media_text_group
+mode: default
+content:
+  field_background_theme:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_blocks:
+    type: entity_reference_revisions_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_introduction_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_media_text_image_position:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

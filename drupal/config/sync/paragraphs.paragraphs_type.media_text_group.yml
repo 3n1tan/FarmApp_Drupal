@@ -1,0 +1,10 @@
+uuid: dea6bb5d-5fac-4b86-96ce-740653858cf1
+langcode: en
+status: true
+dependencies: {  }
+id: media_text_group
+label: 'Media text group'
+icon_uuid: null
+icon_default: null
+description: 'Use this paragraph type to create group of elements which has either image or video and text positioned inline. '
+behavior_plugins: {  }

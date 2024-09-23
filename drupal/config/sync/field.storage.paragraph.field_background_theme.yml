@@ -1,0 +1,27 @@
+uuid: 03f18f5f-d7a4-4db7-848c-4beb9a1fc800
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_background_theme
+field_name: field_background_theme
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: background-white
+      label: White
+    -
+      value: background-zebra
+      label: Zebra
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

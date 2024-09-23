@@ -1,0 +1,10 @@
+uuid: 2e50b694-39ba-497c-a20a-becac5e2b839
+langcode: en
+status: true
+dependencies: {  }
+id: introduction
+label: Introduction
+icon_uuid: null
+icon_default: null
+description: '[internal] This paragraph type is used with other more complex paragraphs to render title and text at the start of the paragraph.'
+behavior_plugins: {  }

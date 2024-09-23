@@ -1,0 +1,34 @@
+uuid: d45a1842-7d90-4a1a-9d3b-64d9796035ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.introduction.field_formatted_text
+    - field.field.paragraph.introduction.field_title
+    - paragraphs.paragraphs_type.introduction
+  module:
+    - text
+id: paragraph.introduction.default
+targetEntityType: paragraph
+bundle: introduction
+mode: default
+content:
+  field_formatted_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

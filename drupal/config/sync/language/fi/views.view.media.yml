@@ -1,0 +1,57 @@
+label: Media
+display:
+  default:
+    display_title: Oletus
+    display_options:
+      title: Media
+      fields:
+        thumbnail__target_id:
+          separator: ', '
+        name:
+          separator: ', '
+        bundle:
+          label: Tyyppi
+          separator: ', '
+        uid:
+          separator: ', '
+        status:
+          label: Tila
+          settings:
+            format_custom_false: Julkaisematon
+            format_custom_true: Julkaistu
+          separator: ', '
+        changed:
+          separator: ', '
+        operations:
+          label: Toimenpiteet
+      pager:
+        options:
+          tags:
+            next: 'Seuraava ›'
+            previous: '‹ Edellinen'
+          expose:
+            items_per_page_label: 'Merkintöjä sivua kohti'
+            items_per_page_options_all_label: '- Kaikki -'
+            offset_label: Offset
+      exposed_form:
+        options:
+          reset_button_label: Palauta
+          exposed_sorts_label: Lajittele
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      filters:
+        bundle:
+          expose:
+            label: Tyyppi
+        status:
+          group_info:
+            group_items:
+              1:
+                title: Julkaistu
+              2:
+                title: Julkaisematon
+  media_page_list:
+    display_title: Media
+    display_options:
+      menu:
+        title: Media
