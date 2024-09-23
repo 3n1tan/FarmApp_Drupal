@@ -16,6 +16,7 @@ export function ParagraphHero({
 }: {
   paragraph: FragmentParagraphHeroFragment;
 }) {
+  console.log(paragraph);
   return (
     <section id="hero" className="bg-secondary-50">
       <div className="mx-auto grid max-w-screen-xl lg:grid-cols-12">

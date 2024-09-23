@@ -1,4 +1,4 @@
-import { Paragraph } from "@/components/paragraph";
+import { Paragraph } from "@/components/Paragraph";
 import { FragmentParagraphUnionFragment } from "@/lib/gql/graphql";
 import type { FrontpageType } from "@/types/graphql";
 

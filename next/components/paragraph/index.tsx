@@ -1,12 +1,12 @@
 import dynamic from "next/dynamic";
 
-import { ParagraphFileAttachments } from "@/components/paragraph/paragraph--file-attachments";
-import { ParagraphHero } from "@/components/paragraph/paragraph--hero";
-import { ParagraphImage } from "@/components/paragraph/paragraph--image";
-import { ParagraphLiftupArticle } from "@/components/paragraph/paragraph--liftup-article";
-import { ParagraphLinks } from "@/components/paragraph/paragraph--links";
-import { ParagraphListingArticles } from "@/components/paragraph/paragraph--listing-articles";
-import { ParagraphText } from "@/components/paragraph/paragraph--text";
+import { ParagraphFileAttachments } from "@/components/Paragraph/paragraph--file-attachments";
+import { ParagraphHero } from "@/components/Paragraph/paragraph--hero";
+import { ParagraphImage } from "@/components/Paragraph/paragraph--image";
+import { ParagraphLiftupArticle } from "@/components/Paragraph/paragraph--liftup-article";
+import { ParagraphLinks } from "@/components/Paragraph/paragraph--links";
+import { ParagraphListingArticles } from "@/components/Paragraph/paragraph--listing-articles";
+import { ParagraphText } from "@/components/Paragraph/paragraph--text";
 import type { FragmentParagraphUnionFragment } from "@/lib/gql/graphql";
 
 // Use dynamic imports to defer loading a component until after initial page load: https://nextjs.org/docs/advanced-features/dynamic-import
