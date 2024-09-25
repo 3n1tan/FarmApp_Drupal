@@ -19,8 +19,9 @@
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.5",
-        "drupal/core-composer-scaffold": "^10.3",
-        "drupal/core-recommended": "^10.3",
+        "drupal/core-composer-scaffold": "10.3.5",
+        "drupal/core-project-message": "10.3.5",
+        "drupal/core-recommended": "10.3.5",
         "drupal/elasticsearch_helper": "^8.1",
         "drupal/entity_browser": "^2.11",
         "drupal/entity_reference_integrity": "^1.2",
@@ -73,7 +74,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "phpro/grumphp": true,
             "phpstan/extension-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "drupal/core-project-message": true
         },
         "process-timeout": 3000
     },

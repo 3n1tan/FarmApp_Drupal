@@ -1,5 +1,5 @@
-import { ParagraphAccordionOneColumn } from "@/components/Paragraph/paragraph--accordion--one-column";
-import { ParagraphAccordionTwoColumns } from "@/components/Paragraph/paragraph--accordion--two-columns";
+import { ParagraphAccordionOneColumn } from "@/components/paragraph/paragraph--accordion--one-column";
+import { ParagraphAccordionTwoColumns } from "@/components/paragraph/paragraph--accordion--two-columns";
 import type { FragmentParagraphAccordionFragment } from "@/lib/gql/graphql";
 
 export function ParagraphAccordion({

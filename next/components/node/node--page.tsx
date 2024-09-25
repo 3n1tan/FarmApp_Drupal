@@ -1,4 +1,4 @@
-import { Paragraph } from "@/components/Paragraph";
+import { Paragraph } from "@/components/paragraph";
 import { FragmentParagraphUnionFragment } from "@/lib/gql/graphql";
 import type { PageType } from "@/types/graphql";
 

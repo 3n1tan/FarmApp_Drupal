@@ -19,6 +19,7 @@ export const FRAGMENT_PARAGRAPH_UNION = graphql(`
     ...FragmentParagraphAccordionItem
     ...FragmentParagraphListingArticle
     ...FragmentParagraphLiftupArticle
+    # ...FragmentParagraphMediaTextGroup
   }
 `);
 
@@ -156,3 +157,18 @@ export const FRAGMENT_PARAGRAPH_LISTING_ARTICLE = graphql(`
     limit
   }
 `);
+
+// export const FRAGMENT_PARAGRAPH_MEDIA_TEXT_GROUP = graphql(`
+//   fragment FragmentParagraphMediaTextGroup on ParagraphMediaTextGroup {
+//     __typename
+//     id
+//     mediaTextGroupIntroductionParagraph {
+//       ...FragmentParagraphIntroduction
+//     }
+//     mediaTextItems {
+//       ...FragmentBlockContentMediaText
+//     }
+//     mediaTextBackgroundTheme
+//     mediaTextImagePosition
+//   }
+// `);
