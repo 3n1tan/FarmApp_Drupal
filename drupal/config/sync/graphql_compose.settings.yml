@@ -57,6 +57,8 @@ entity_config:
       enabled: true
     hero:
       enabled: true
+    hero_banner:
+      enabled: true
     image:
       enabled: true
     introduction:
@@ -66,8 +68,6 @@ entity_config:
     links:
       enabled: true
     listing_articles:
-      enabled: true
-    media_text_group:
       enabled: true
     video:
       enabled: true
@@ -160,6 +160,9 @@ field_config:
         enabled: true
       field_secondary_link:
         enabled: true
+    hero_banner:
+      field_image:
+        enabled: true
     image:
       field_image:
         enabled: true
@@ -176,7 +179,6 @@ field_config:
         enabled: true
       field_limit:
         enabled: true
-    media_text_group: {  }
     video:
       field_video:
         enabled: true

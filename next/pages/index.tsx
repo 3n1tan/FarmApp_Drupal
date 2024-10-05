@@ -44,7 +44,7 @@ export default function IndexPage({
         metatags={frontpage?.metatag as FragmentMetaTagFragment[]}
       />
       <Node node={frontpage} />
-      <Divider className="max-w-4xl" />
+      {/* <Divider className="max-w-4xl" />
       <ContactForm />
       <Divider className="max-w-4xl" />
       <ArticleTeasers
@@ -52,7 +52,7 @@ export default function IndexPage({
         articles={stickyArticleTeasers}
       />
       <ContactList />
-      <LogoStrip />
+      <LogoStrip /> */}
     </>
   );
 }

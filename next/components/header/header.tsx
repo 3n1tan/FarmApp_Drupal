@@ -19,13 +19,13 @@ export function Header({ menu }: HeaderProps) {
   const [isMainMenuOpen, setIsMainMenuOpen] = useState(false);
 
   return (
-    <header className="z-50 flex-shrink-0 border-b border-finnishwinter bg-white text-primary-600 md:sticky md:top-0">
+    <header className="z-50 flex-shrink-0 border-b border-finnishwinter bg-green text-primary-600 md:sticky md:top-0 w-full">
       <nav className="mx-auto flex max-w-6xl flex-row items-center justify-between px-6 py-4">
         <HomeLink />
         <div className="flex flex-row items-center justify-end gap-6 sm:gap-8">
           <SearchLink />
           <UserMenu />
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
           <MenuToggle isOpen={isMainMenuOpen} setIsOpen={setIsMainMenuOpen} />
         </div>
       </nav>

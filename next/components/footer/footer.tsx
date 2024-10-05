@@ -19,7 +19,7 @@ export function Footer({ menu }: FooterProps) {
     (link) => link.langcode?.id == locale,
   );
   return (
-    <footer className="border-t border-finnishwinter">
+    <footer className="border-t border-finnishwinter bg-green">
       <div className="mx-auto max-w-6xl px-6">
         <nav className="flex flex-col items-center gap-2 py-8 text-md sm:flex-row sm:justify-between">
           <ul className="mr-4 flex flex-wrap gap-x-12 gap-y-4">
@@ -35,9 +35,9 @@ export function Footer({ menu }: FooterProps) {
             })}
           </ul>
           <SocialShare />
-          <FooterLink href="https://next-drupal.org" newTab>
+          {/* <FooterLink href="https://next-drupal.org" newTab>
             Next.js for Drupal
-          </FooterLink>
+          </FooterLink> */}
         </nav>
       </div>
     </footer>
