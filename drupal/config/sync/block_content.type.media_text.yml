@@ -1,8 +1,0 @@
-uuid: a7d7afc2-acde-4daa-82dc-4bba16caad59
-langcode: en
-status: true
-dependencies: {  }
-id: media_text
-label: 'Media & text'
-revision: false
-description: 'Use this block type to create media and text items which are used inside "Media & text group" paragraph.'

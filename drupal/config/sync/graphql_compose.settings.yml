@@ -176,18 +176,7 @@ field_config:
         enabled: true
       field_limit:
         enabled: true
-    media_text_group:
-      field_background_theme:
-        enabled: true
-        name_sdl: mediaTextBackgroundTheme
-      field_blocks:
-        enabled: true
-        name_sdl: mediaTextItems
-      field_introduction_paragraph:
-        enabled: true
-        name_sdl: mediaTextGroupIntroductionParagraph
-      field_media_text_image_position:
-        enabled: true
+    media_text_group: {  }
     video:
       field_video:
         enabled: true

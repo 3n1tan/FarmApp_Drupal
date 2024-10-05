@@ -14,7 +14,6 @@ dependencies:
     - paragraphs.paragraphs_type.liftups_articles
     - paragraphs.paragraphs_type.links
     - paragraphs.paragraphs_type.listing_articles
-    - paragraphs.paragraphs_type.media_text_group
     - paragraphs.paragraphs_type.video
   module:
     - entity_reference_revisions
@@ -44,7 +43,6 @@ settings:
       file_attachments: file_attachments
       liftups_articles: liftups_articles
       introduction: introduction
-      media_text_group: media_text_group
     negate: 0
     target_bundles_drag_drop:
       accordion:
