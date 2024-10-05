@@ -19,7 +19,7 @@ export const FRAGMENT_PARAGRAPH_UNION = graphql(`
     ...FragmentParagraphAccordionItem
     ...FragmentParagraphListingArticle
     ...FragmentParagraphLiftupArticle
-    # ...FragmentParagraphMediaTextGroup
+    ...FragmentParagraphHeroBanner
   }
 `);
 
@@ -155,6 +155,16 @@ export const FRAGMENT_PARAGRAPH_LISTING_ARTICLE = graphql(`
     id
     paragraphListingArticleHeading: heading
     limit
+  }
+`);
+
+export const FRAGMENT_PARAGRAPH_HERO_BANNER = graphql(`
+  fragment FragmentParagraphHeroBanner on ParagraphHeroBanner {
+    __typename
+    id
+    image {
+      ...FragmentMediaUnion
+    }
   }
 `);
 

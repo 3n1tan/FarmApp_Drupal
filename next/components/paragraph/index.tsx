@@ -8,7 +8,8 @@ import { ParagraphLinks } from "@/components/paragraph/paragraph--links";
 import { ParagraphListingArticles } from "@/components/paragraph/paragraph--listing-articles";
 import { ParagraphText } from "@/components/paragraph/paragraph--text";
 import type { FragmentParagraphUnionFragment } from "@/lib/gql/graphql";
-import { ParagraphMediaTextGroup } from "./paragraph--media-text";
+
+import { ParagraphHeroBanner } from "@/components/paragraph/paragraph--hero-banner";
 
 // Use dynamic imports to defer loading a component until after initial page load: https://nextjs.org/docs/advanced-features/dynamic-import
 const ParagraphVideo = dynamic(() =>
@@ -55,9 +56,9 @@ export function Paragraph({
     case "ParagraphLiftupsArticle": {
       return <ParagraphLiftupArticle paragraph={paragraph} />;
     }
-    // case "ParagraphMediaTextGroup": {
-    //   return <ParagraphMediaTextGroup paragraph={paragraph} />;
-    // }
+    case "ParagraphHeroBanner": {
+      return <ParagraphHeroBanner paragraph={paragraph} />;
+    }
     default: {
       console.log(
         `components/paragraph/index.tsx: GraphQL paragraph not yet implemented: ${paragraph.__typename}`,
